@@ -142,6 +142,15 @@ If you want to play audio files other than WAV, use [event commands](#event-comm
 
 The timer finished sound can be repeated with `--timer-finished-wav-repeat <repeats> <delay>` where `<repeats>` is the number of times to repeat the WAV, and `<delay>` is the number of seconds to wait between repeats.
 
+## LED Feedback
+
+If you're using a WS2812 NeoPixel ring (for example with a Google Voice HAT),
+the `examples/neopixel_service.py` helper can mirror the visual feedback used by
+ReSpeaker devices. See [NeoPixel LED Service](docs/neopixel_service.md) for
+installation, configuration, and service setup instructions, and
+[Adding the NeoPixel files to your own repository](docs/github_setup.md) if you
+want to copy the helper into a separate project.
+
 ## Audio Enhancements
 
 Install the dependencies for webrtc:
